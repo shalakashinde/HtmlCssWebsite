@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html,h1,h2,h3,h4,h5,h6,a{
+ font-family: "Raleway";
+}
+
+h1 {
+	color: black;
+	position: relative;
+}
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f6e9;
+  position: relative;
+}
+.navbar {
+	background: #77009e;
+}
+.nav-link,.navbar-brand {
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link {
+	margin-right: 1em !important ; 
+}
+.nav-link:hover {
+	background: #f4f4f4;
+	color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-toggler {
+	background: #000 !important;
+}
+.bg-dark{
+background-color:#007bff!important
+}
+
+
+.header {
+	background-image: url(../images/backgroundImage.jpg);
+	background-size: cover;
+	background-position:center;
+	position: relative; 
+	background-attachment: fixed;
+}
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.2);
+}
+.description {
+	color: #fff;
+	left: 50%;
+	top: 45%;
+	position: absolute;
+	transform: translate(-50%, -55%);
+	text-align: center;
+	padding: 2em;
+}
+.description h1 {
+	color: #77009e;
+
+}
+.description p {
+	color: #fff;
+	font-size: 16px;
+}
+.description button {
+	border: 1px solid #77009e;
+	background-color: #77009e;
+	color: #fff;
+}
+
+/****About****/
+
+.about {
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1 {
+	color: #77009e;
+	text-align: center;
+	margin: 2em;
+}
+.about img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+.about span {
+	display: block;
+	color: green;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left: 2px solid #10828c; 
+}
+.about .desc h3{
+ color: #10828C;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+
+/****Blog****/
+.blog {
+	margin: 4em 0;
+	position: relative;
+}
+.blog h1 {
+	color: #77009e;
+	margin:  2em;
+}
+.blog .card {
+	box-shadow: 0 0 20px #ccc;
+	height: 100%;
+}
+.blog .card .img {
+	width: 100%;
+	height: 12rem;
+}
+.blog .card-title {
+	color: #77009e;
+}
+.blog .card-body {
+	padding: 1em;
+}
+
+/****contact****/
+
+
+.contact  {
+	margin: 6em 0;
+	position: relative;
+}
+.contact h1 {
+	padding: 2em 1px;
+	color: #77009e;
+
+}
+.contact .right {
+	max-width: 600px;
+}
+
+.contact .right .btn-secondary{
+ background:  #77009e;
+ color: #fff;
+ border:0;
+}
+.contact .right .form-control::placeholder {
+	color: #888;
+	font-size: 16px;
+}
+.contact .right .form-control .area {
+	height: 500px;
+	width: 100%;
+
+}
+
+/****gallary****/
+.gallary {
+	margin: 4em 0;
+	position: relative;
+}
+.gallary h1 {
+	color: #77009e;
+	margin: 2em;
+
+}
+.gallary img {
+	height: 15rem;
+	width: 100%;
+	margin: 1em;
+	border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 6px;
+
+}
+.gallary img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+/****inventor****/
+.inventor{
+	margin: 4em 0;
+	position: relative;
+	background-color: lightgray;
+}
+.inventor h1 {
+	color: #77009e;
+	margin: 2em;
+}
+.inventor .member {
+	position: relative;
+}
+.inventor .desc{
+ background: #77009e;
+ color: #fff;
+ text-align: center;
+ border-bottom-left-radius: 93%;
+ transition:.3s ease-in-out;
+ 
+}
+.inventor .member:hover .desc {
+	height: 100%;
+	background: #77009e7d;
+    position: absolute;
+    widows: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+}
+
+/****footer****/
+
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 50px 0 30px;
+  height: 100%;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+  margin:10px;
+}

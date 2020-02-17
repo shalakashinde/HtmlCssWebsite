@@ -5,7 +5,7 @@ html,h1,h2,h3,h4,h5,h6,a{
  font-family: "Raleway";
 }
 
-h1 {
+h1{
 	color: black;
 	position: relative;
 }
@@ -65,7 +65,7 @@ background-color:#007bff!important
 	text-align: center;
 	padding: 2em;
 }
-.description h1 {
+.description h2 {
 	color: #77009e;
 
 }
